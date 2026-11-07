@@ -1,0 +1,12 @@
+.tarjeta {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 8px;
+  display: inline-block;
+}
+
+.agotado {
+  opacity: 0.5;
+  background-color: #f1f1f1;
+}

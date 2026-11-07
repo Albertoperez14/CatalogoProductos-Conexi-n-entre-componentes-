@@ -1,0 +1,16 @@
+<div class="container">
+  
+  <div>
+    <h2>Mi Carrito</h2>
+    <p>Total de artículos: {{ carrito.length }}</p>
+    <p>Productos: {{ carrito.join(', ') }}</p>
+  </div>
+
+  
+
+  
+  <app-catalogo 
+    [productos]="listaProductos" 
+    (productoAgregado)="agregarAlCarrito($event)">
+  </app-catalogo>
+</div>

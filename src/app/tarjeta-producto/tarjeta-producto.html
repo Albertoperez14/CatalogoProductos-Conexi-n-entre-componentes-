@@ -1,0 +1,6 @@
+<div [class.agotado]="!disponible">
+    <p>{{ nombre }}</p>
+    <p class="precio">{{ precio|currency }}</p>
+
+    <button [disabled]="!disponible" (click)="agregarAlCarrito()">Añadir al carrito</button>
+</div>
